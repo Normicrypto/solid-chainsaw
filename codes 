@@ -1,1 +1,1 @@
-npx hardhat run scripts/deploy.js --network sepolianpx hardhat run scripts/deploy.js --network sepolia
+1492860052npx hardhat run scripts/deploy.js --network sepolianpx hardhat run scripts/deploy.js --network sepolia
