@@ -1,1 +1,14 @@
-Noemi platform cap 1 inch company asset and wallets  finances.
+1Noemi platform cap 1 inch company asset and wallets  finances.[
+  {
+    "tokenName": "USDT",
+    "tokenAddress": "0xdAC17F...",
+    "chain": "Ethereum",
+    "balance": "1200.45"
+  },
+  {
+    "tokenName": "BNB",
+    "tokenAddress": "0xb8c77...",
+    "chain": "BSC",
+    "balance": "3.25"
+  }
+]
