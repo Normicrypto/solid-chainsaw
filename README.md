@@ -1,66 +1,31 @@
-topic!departments.idhttps://leetcode.com/problemset/database/README.mdindex.htmlApp.cssApp.test.jsindex.jsnpx create-react-app my-app
-cd my-app
-npm startfunction MyButton() {
- return (
- <button>I'm a button</button>
- );
-}29employees.namehttps://sqlzoo.net/my-app/
- README.md
- node_modules/
- package.json
- public/
- index.html
- favicon.ico
- src/
- App.css
- App.js
- App.test.js
- index.css
- index.js
- logo.svg
-For the project package.jsonfavicon.icoApp.jsindex.csslogo.svgexport default function MyApp() {
- return (
- <div>
- <h1>Welcome to my app</h1>
- <MyButton />
- </div>
- );
-}https://sqlzoo.net/my-app/package.jsonfavicon.icoApp.jsindex.csslogo.svgREADME.mdindex.htmlApp.cssApp.test.jsindex.jsnpx create-react-app my-app
-cd my-app
-npm startfunction MyButton() {
- return (
- <button>I'm a button</button>
- );
-}29employees.namehttps://sqlzoo.net/my-app/
- README.md
- node_modules/
- package.json
- public/
- index.html
- favicon.ico
- src/
- App.css
- App.js
- App.test.js
- index.css
- index.js
- logo.svg
-For the project package.jsonfavicon.icoApp.jsindex.csslogo.svgexport default function MyApp() {
- return (
- <div>
- <h1>Welcome to my app</h1>
- <MyButton />
- </div>
- );
+class ListNode {
+    val: number
+    next: ListNode | null
+
+    constructor(val?: number, next?: ListNode | null) {
+        this.val = (val === undefined ? 0 : val)
+        this.next = (next === undefined ? null : next)
+    }
 }
-Notice thatCREATE TABLE table_name (
-    column1 datatype,
-    column2 datatype,
-    ...
-);UPDATE table_name
-SET column1 = value1, column2 = value2
-WHERE condition;https://leetcode.com/problemset/database/README.mdindex.htmlApp.cssApp.test.jsindex.jsnpxREADME.mdREADME.mdindex.htmlApp.cssApp.test.jsindex.jspackage.jsonfavicon.icoApp.jsindex.csslogo.svgexportREADME.mdindex.htmlApp.cssApp.test.jsindex.jsnpxDELETE FROM table_name
-WHERE condition;| Token Name | Token Address      | Chain    | Balance   |
-|------------|--------------------|----------|-----------|
-| USDT       | 0xdAC17F...        | Ethereum | 1200.45   |
-| BNB        | 0xb8c77...         | BSC      | 3.25      |# solid-chainsaw:is the way to implement your 1 inch tokens and wallets in the 1inch platform in to  your company financial repository for complete control of your assets to bu
+
+function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
+    let dummy = new ListNode(0);
+    let current = dummy;
+    let carry = 0;
+
+    while (l1 !== null || l2 !== null || carry !== 0) {
+        const val1 = l1 ? l1.val : 0;
+        const val2 = l2 ? l2.val : 0;
+
+        const sum = val1 + val2 + carry;
+        carry = Math.floor(sum / 10);
+
+        current.next = new ListNode(sum % 10);
+        current = current.next;
+
+        if (l1) l1 = l1.next;
+        if (l2) l2 = l2.next;
+    }
+
+    return dummy.next;
+}this.nextl2.val999999999[0]999999999 is not a valid value of type ListNode[0]999999999 is not a valid value of type ListNode[7,0,8]this.val0l1.valcurrent.next999999999Line 13: Char 67: error TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
