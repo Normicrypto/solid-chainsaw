@@ -27,5 +27,4 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
         if (l2) l2 = l2.next;
     }
 
-    return dummy.next;
-}this.nextl2.val999999999[0]999999999 is not a valid value of type ListNode[0]999999999 is not a valid value of type ListNode[7,0,8]this.val0l1.valcurrent.next999999999Line 13: Char 67: error TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+   
